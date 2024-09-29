@@ -16,6 +16,11 @@ The server manages all active connections and relays messages, making it possibl
 4. **Threaded Architecture:** The server handles multiple clients simultaneously via threading.
 5. **Real-Time Messaging:** Users can send and receive messages in real-time.
 
+# Concept Used
+1. Socket programming
+2. Multithreading
+
+
 
 
 
