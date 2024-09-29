@@ -139,7 +139,7 @@ class Server
 			
 			while((clientfd=accept(sockfd,&clientAddress,&clientLen))!=-1){
 				
-				printf("connection accepted...\n");	
+				printf("user %d connection accepted...\n",clientfd);	
 				clients.insert(clientfd);
 				thread receiver(&Server::receiverTask,this,clientfd);
 				receiver.detach();

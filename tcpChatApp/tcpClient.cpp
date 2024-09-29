@@ -26,8 +26,6 @@ class Client
 	      struct addrinfo *host;
 	      char* port;
 	      char* address;
-	      char readBuffer[bufferSize];
-	      char writeBuffer[bufferSize];
 	      bool state=true;
 	      mutex lock;
 	      
