@@ -20,6 +20,14 @@ The server manages all active connections and relays messages, making it possibl
 1. Socket programming
 2. Multithreading
 
+# Build and Run
+1. <code>make</code> : to generate server.out & client.out
+2. <code>./server.out</code> : to run server
+3. <code>./client.out</code> : to run client
+
+ <img src="https://github.com/mohit1018102/SocketProgramming/blob/main/tcpChatApp/img/demo.JPG"/>
+
+
 
 
 
